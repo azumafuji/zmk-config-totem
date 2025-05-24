@@ -12,6 +12,7 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
 
 #define Base        0
 #define Nav         1
@@ -86,7 +87,7 @@
             display-name = "Fun";
             bindings = <
         &bootloader  &trans  &trans  &trans  &to 4     &trans  &trans  &trans  &kp END  &kp F1
-        &trans       &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &kp F10
+        &BT_CLR_ALL  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &kp F10
 &trans  &trans       &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &kp F20  &kp F7
                              &trans  &trans  &trans    &trans  &trans  &trans
             >;
