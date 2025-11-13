@@ -99,20 +99,20 @@
         Num {
             label = "Num";
             bindings = <
-                    &kp GRAVE        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DIVIDE      &trans        &trans      &trans     &trans    &trans
-                    &kp KP_PLUS      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_ASTERISK    &trans        &kp RSHIFT  &kp RCTRL  &kp RALT  &kp RGUI
-&kp RS(KP_NUMLOCK)  &kp KP_SUBTRACT  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT         &trans        &trans      &trans     &trans    &trans    &trans
-                                                      &kp KP_NUMBER_0  &kp SPACE        &kp EQUAL          &kp KP_ENTER  &trans      &trans
+        &kp GRAVE        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DIVIDE      &kp KP_NUMLOCK  &trans      &trans     &trans    &trans
+        &kp KP_PLUS      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_ASTERISK    &trans          &kp RSHIFT  &kp RCTRL  &kp RALT  &kp RGUI
+&trans  &kp KP_SUBTRACT  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT         &trans          &trans      &trans     &trans    &trans    &trans
+                                          &kp KP_NUMBER_0  &trans           &kp EQUAL          &kp KP_ENTER    &trans      &trans
             >;
         };
 
         Fun {
             label = "Fun";
             bindings = <
-        &kp F12  &kp F7  &kp F8      &kp F9   &kp PRINTSCREEN    &trans  &trans      &trans     &trans    &trans
-        &kp F11  &kp F4  &kp F5      &kp F6   &kp SCROLLLOCK     &trans  &kp RSHIFT  &kp RCTRL  &kp RALT  &kp RGUI
-&trans  &kp F10  &kp F1  &kp F2      &kp F3   &kp PAUSE_BREAK    &trans  &trans      &trans     &trans    &trans    &trans
-                         &kp C_MENU  &kp TAB  &kp SPACE          &trans  &trans      &trans
+        &kp PRINTSCREEN  &kp F7  &kp F8  &kp F9  &kp F12    &trans  &trans      &trans     &trans    &trans
+        &kp SCROLLLOCK   &kp F4  &kp F5  &kp F6  &kp F11    &trans  &kp RSHIFT  &kp RCTRL  &kp RALT  &kp RGUI
+&trans  &kp PAUSE_BREAK  &kp F1  &kp F2  &kp F3  &kp F10    &trans  &trans      &trans     &trans    &trans    &trans
+                                 &trans  &trans  &trans     &trans  &trans      &trans
             >;
         };
 
@@ -150,9 +150,9 @@
             label = "Gameplus";
             bindings = <
         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &trans  &trans  &trans  &trans  &trans
-        &kp G         &kp A         &kp W         &kp D         &kp T           &trans  &trans  &trans  &trans  &trans
-&trans  &kp TAB       &trans        &kp S         &trans        &kp B           &trans  &trans  &trans  &trans  &trans  &trans
-                                    &kp ESCAPE    &trans        &tog 8          &trans  &trans  &trans
+        &kp G         &trans        &trans        &trans        &kp T           &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans        &trans        &trans        &kp B           &trans  &trans  &trans  &trans  &trans  &trans
+                                    &trans        &trans        &none           &tog 8  &trans  &trans
             >;
         };
     };
