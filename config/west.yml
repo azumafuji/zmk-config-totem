@@ -11,6 +11,6 @@ manifest:
       import: app/west.yml
     - name: zmk-dongle-screen
       remote: azumafuji
-      revision: feature/lock-status-indicator
+      revision: feature-lock-status-indicator
   self:
     path: config
