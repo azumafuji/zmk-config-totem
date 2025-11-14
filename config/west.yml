@@ -2,15 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: janpfischer
-      url-base: https://github.com/janpfischer
+    - name: azumafuji
+      url-base: https://github.com/azumafuji
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
     - name: zmk-dongle-screen
-      remote: janpfischer
-      revision: main
+      remote: azumafuji
+      revision: feature-lock-status-indicator
   self:
     path: config
